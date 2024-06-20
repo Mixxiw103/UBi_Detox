@@ -121,9 +121,6 @@
     left: -150%;
     min-width: 23rem;
 }
-img{
-    object-fit: cover;
-}
 .nav__bars {
     width: 50px;
     height: 50px;
@@ -137,178 +134,58 @@ h2{
     margin: 0 0 25px 0;
     margin: 40px 0 20px 0;
 }
-
+.pri_pic{
+    height: 70vh;
+}
+.pri_pic img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 .content1{
     display: grid;
-    overflow: hidden;
-    margin: 10px 150px;
     grid-template-columns: repeat(2, 1fr);
+    margin: 10px 100px;
 }
-.content1 .left{
-    padding-right: 20px;
-}
-.content1 .right{
-    padding-left: 20px;
-    padding-right: 50px;
-}
-.content1 .left .drop1{
-    display: flex;
-    align-items: baseline;
-    position: relative;
-    margin: 0 30px 0 10px;
-    justify-content: center;
-}
-.content1 .left .drop1 svg{
-    width: 125px;
-    height: 125px;
-    fill: var(--main);
-    opacity: 0.5;
-}
-.content1 .left .drop1 span{
-    font-size: 2rem;
-    color: var(--sub);
-    position: absolute;
-    top: 35%;
-    left: 0%;
-    font-weight: bold;
-}
-.content1 .left .drop2{
-    display: flex;
-    align-items: baseline;
-    position: relative;
-    margin-left: 50px;
-}
-.content1 .left .drop2 svg{
-    width: 125px;
-    height: 125px;
-    fill: var(--red);
-    opacity: 0.5;
-}
-.content1 .left .drop2 span{
-    font-size: 2rem;
-    color: var(--red);
-    position: absolute;
-    top: 35%;
-    left: -15%;
-    font-weight: bold;
-}
-.content1 .right img{
+.content1 img{
     width: 100%;
-    object-fit: cover;
-    height: 60vh;
-}
-.drop{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.textEnd{
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.textEnd .green{
-    color: var(--sub);
-    font-weight: bold;
-}
-.lienhe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-a.btn{
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 75px;
-    color: var(--body);
-    background-color: var(--main);
-    transition: .5s;
-    border-radius: 15px;
-}
-a.btn:hover{
-    background-color: var(--sub);
-    transition: .5s;
 }
 .content2{
-    margin: 20px 150px;
-}
-.pic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0px;
-}
-.content2 .advantages{
-    margin: 15px 150px;
-}
-.buy .list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 40px;
-    gap: 25px;
-}
-.buy .list .item{
-    position: relative;
-    padding-bottom: 70px;
-    border: 0.5px solid #ccc;
-    box-shadow: 0px 2px 15px 5px #f2f2f2;
-}
-.buy .list .item .title{
-    background-color: #167f7c;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    padding: 19px 0px;
-    line-height: 2rem;
-}
-.buy .list .item .summary{
-    position: relative;
-}
-.buy .list .item .summary .price{
-    background-color: #8bd6d5;
-    font-size: 2rem;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.day{
+    padding-top: 50px;
+    margin: 10px 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.content2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+ol li{
+    padding-bottom: 7.5px;
+}
+.picCover{
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 100px;
-    gap: 10px;
+    padding-bottom: 25px;
 }
-.day7{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 50px;
+.picCover img{
+    object-fit: cover;
+    height: 50%;
+    width: 50%;
 }
-.dauhieu{
+.content3{
+    padding-top: 50px;
+    margin: 10px 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0 20px 200px;
-    gap: 50px;
 }
-.dauhieu .pic img{
+.content3 .picCover img{
     object-fit: cover;
+    height: 100%;
     width: 100%;
-}
-ol{
-    margin-bottom: 50px;
-}
-ol li{
-    padding-bottom: 10px;
 }
 #footer{
     padding: 50px;
