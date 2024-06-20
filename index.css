@@ -268,17 +268,17 @@ h2{
 .blockStrengthRow .item:nth-child(2) {
     opacity: 0;
     transform: translateX(-200px);
-    transition: 2s;
+    transition: 1s;
 }
 .blockStrengthRow .item:nth-child(3) {
     opacity: 0;
     transform: translateX(-400px);
-    transition: 3s;
+    transition: 2s;
 }
 .blockStrengthRow .item:nth-child(4) {
     opacity: 0;
     transform: translateX(-600px);
-    transition: 4s;
+    transition: 3s;
 }
 .hello2{
     opacity: 1 !important;
@@ -331,7 +331,7 @@ h2{
 }
 .explore__content__item:hover img{
     opacity: 0.85;
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 .explore__content__item:hover h5{
     color: var(--main);
